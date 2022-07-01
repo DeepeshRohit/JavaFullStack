@@ -14,7 +14,7 @@ public class Tax {
             System.out.println(" tax payable in % is : 10 Amoout :" +((ctc*10)/100));
         }
         else if(ctc>300000&&ctc<=500000) {
-            System.out.println(" tax payable in % is : 20 Amoout :"+((ctc*30)/100));
+            System.out.println(" tax payable in % is : 20 Amoout :"+((ctc*20)/100));
         }
         else if(ctc>500000&&ctc<=1000000) {
             System.out.println(" tax payable in % is : 30 Amoout : "+((ctc*30)/100));
