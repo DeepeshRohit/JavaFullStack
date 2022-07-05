@@ -19,6 +19,8 @@ public class Withdraw{
 	    	  {
 	    		  throw new InsufficientBalanceException("you can not Withdraw an amount more than your Balance");
 	    	  }
+	    	  else { System.out.println("Transaction Successful ");
+	    	  System.out.println("Your Balance is : "+balance);}
 	    	  
 	      } catch(IllegalBankTransactionException e) {
 	         System.out.println(e);
