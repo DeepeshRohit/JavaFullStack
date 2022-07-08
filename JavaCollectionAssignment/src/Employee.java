@@ -65,4 +65,9 @@ import java.util.Objects;
 
             return 0;
     }
+
+			@Override
+			public String toString() {
+				return "Employee [id=" + id + ", name=" + name + ", dept=" + dept + ", salary=" + salary + "]";
+			}
 }

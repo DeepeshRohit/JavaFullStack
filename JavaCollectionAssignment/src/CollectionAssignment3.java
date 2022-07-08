@@ -16,7 +16,7 @@ public class CollectionAssignment3 {
 		p.put(8,"Toshiba");
 		p.put(9,"Apple");
 		p.put(10,"Pixel");
-		p.put(11,"Hp");
+		p.put(11,"Asus");
 
 		System.out.println(p);
 
