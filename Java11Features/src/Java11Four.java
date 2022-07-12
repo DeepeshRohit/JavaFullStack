@@ -6,7 +6,7 @@ public class Java11Four {
 	
 	public static void main(String[] args) throws IOException {
 	var path="C:\\Users\\derohit\\Desktop\\csd.txt";
-	String regex = "\\s+";
+	 String regex = "\\s+";
      String data=Files.readString(Path.of(path));
      String[] strSplit = data.split(regex);
      
