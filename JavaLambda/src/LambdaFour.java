@@ -13,7 +13,6 @@ public class LambdaFour{
         s.add("Rabi");
         s.add("Sheetala");
   
-              
         System.out.println("Before removing\n");
         for (String str : s) {
             System.out.println(str);
@@ -25,6 +24,7 @@ public class LambdaFour{
         System.out.println("After Removeing \n");
       
         for (String str : s) {
+            System.out.println(str);
             System.out.println(str);
         }
     }
